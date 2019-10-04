@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.sayali.test.ImageTitleTest">
+        <methods>
+          <include name="CH03_verifyContainsImageTitle"/>
+          <include name="launchBrowser"/>
+          <include name="afterClass"/>
+          <include name="CH04_verifyDoesNotContainImageTitle"/>
+        </methods>
+      </class> <!-- com.sayali.test.ImageTitleTest -->
+      <class name="com.sayali.test.FirstTextTest">
+        <methods>
+          <include name="CH01_verifyContainsSearchTerm"/>
+          <include name="launchBrowser"/>
+          <include name="CH02_verifyDoesNotContainSearchTerm"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sayali.test.FirstTextTest -->
       <class name="com.sayali.test.GoogleMapTest">
         <methods>
           <include name="launchBrowser"/>
           <include name="CH05_verifyMapMenuOptionNotPresent"/>
+          <include name="CH06_verifyMapMenuOptionPresent"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.sayali.test.GoogleMapTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

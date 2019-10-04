@@ -3,13 +3,30 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.sayali.test.ImageTitleTest">
+        <methods>
+          <include name="CH03_verifyContainsImageTitle"/>
+          <include name="launchBrowser"/>
+          <include name="afterClass"/>
+          <include name="CH04_verifyDoesNotContainImageTitle"/>
+        </methods>
+      </class> <!-- com.sayali.test.ImageTitleTest -->
       <class name="com.sayali.test.FirstTextTest">
         <methods>
           <include name="CH01_verifyContainsSearchTerm"/>
           <include name="launchBrowser"/>
+          <include name="CH02_verifyDoesNotContainSearchTerm"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.sayali.test.FirstTextTest -->
+      <class name="com.sayali.test.GoogleMapTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="CH05_verifyMapMenuOptionNotPresent"/>
+          <include name="CH06_verifyMapMenuOptionPresent"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sayali.test.GoogleMapTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

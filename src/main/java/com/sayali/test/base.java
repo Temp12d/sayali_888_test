@@ -27,19 +27,19 @@ public class base{
 	public WebDriver initializeDriver() throws IOException{
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("../SayaliSelenium-app/src/main/java/resources/data.properties");
+		FileInputStream fis = new FileInputStream("./src/main/java/resources/data.properties");
 		prop.load(fis);
 		String browserName=prop.getProperty("browser");
 		
 		 // Set chrome driver.
 		if(browserName.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","../SayaliSelenium-app/DriverSetup/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","./DriverSetup/chromedriver.exe");
 			driver= new ChromeDriver();
 		}
 		 // Set firefox driver.
 		else if(browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver","../SayaliSelenium-app/DriverSetup/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","./DriverSetup/geckodriver.exe");
 			driver= new FirefoxDriver();
 		}
 		

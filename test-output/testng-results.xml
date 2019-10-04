@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63193" started-at="2019-10-04T21:02:44Z" finished-at="2019-10-04T21:03:47Z">
+  <suite name="Suite" duration-ms="64410" started-at="2019-10-04T21:36:46Z" finished-at="2019-10-04T21:37:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63193" started-at="2019-10-04T21:02:44Z" finished-at="2019-10-04T21:03:47Z">
+    <test name="Test" duration-ms="64410" started-at="2019-10-04T21:36:46Z" finished-at="2019-10-04T21:37:50Z">
       <class name="com.sayali.test.FirstTextTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="launchBrowser" is-config="true" duration-ms="11045" started-at="2019-10-04T21:02:44Z" finished-at="2019-10-04T21:02:55Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="launchBrowser" is-config="true" duration-ms="7813" started-at="2019-10-04T21:36:46Z" finished-at="2019-10-04T21:36:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="CH01_verifyContainsSearchTerm()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="CH01_verifyContainsSearchTerm" duration-ms="3804" started-at="2019-10-04T21:02:55Z" finished-at="2019-10-04T21:02:59Z">
+        <test-method status="PASS" signature="CH01_verifyContainsSearchTerm()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="CH01_verifyContainsSearchTerm" duration-ms="4679" started-at="2019-10-04T21:36:53Z" finished-at="2019-10-04T21:36:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH01_verifyContainsSearchTerm -->
-        <test-method status="PASS" signature="CH02_verifyDoesNotContainSearchTerm()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="CH02_verifyDoesNotContainSearchTerm" duration-ms="2743" started-at="2019-10-04T21:02:59Z" finished-at="2019-10-04T21:03:02Z">
+        <test-method status="PASS" signature="CH02_verifyDoesNotContainSearchTerm()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="CH02_verifyDoesNotContainSearchTerm" duration-ms="2715" started-at="2019-10-04T21:36:58Z" finished-at="2019-10-04T21:37:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH02_verifyDoesNotContainSearchTerm -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="afterClass" is-config="true" duration-ms="967" started-at="2019-10-04T21:03:02Z" finished-at="2019-10-04T21:03:03Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.FirstTextTest@475530b9]" name="afterClass" is-config="true" duration-ms="1140" started-at="2019-10-04T21:37:01Z" finished-at="2019-10-04T21:37:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.sayali.test.FirstTextTest -->
       <class name="com.sayali.test.ImageTitleTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="launchBrowser" is-config="true" duration-ms="4321" started-at="2019-10-04T21:03:03Z" finished-at="2019-10-04T21:03:07Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="launchBrowser" is-config="true" duration-ms="4560" started-at="2019-10-04T21:37:02Z" finished-at="2019-10-04T21:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="CH03_verifyContainsImageTitle()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="CH03_verifyContainsImageTitle" duration-ms="5296" started-at="2019-10-04T21:03:07Z" finished-at="2019-10-04T21:03:12Z">
+        <test-method status="PASS" signature="CH03_verifyContainsImageTitle()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="CH03_verifyContainsImageTitle" duration-ms="6054" started-at="2019-10-04T21:37:06Z" finished-at="2019-10-04T21:37:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH03_verifyContainsImageTitle -->
-        <test-method status="PASS" signature="CH04_verifyDoesNotContainImageTitle()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="CH04_verifyDoesNotContainImageTitle" duration-ms="3414" started-at="2019-10-04T21:03:12Z" finished-at="2019-10-04T21:03:16Z">
+        <test-method status="PASS" signature="CH04_verifyDoesNotContainImageTitle()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="CH04_verifyDoesNotContainImageTitle" duration-ms="3602" started-at="2019-10-04T21:37:13Z" finished-at="2019-10-04T21:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH04_verifyDoesNotContainImageTitle -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="afterClass" is-config="true" duration-ms="956" started-at="2019-10-04T21:03:16Z" finished-at="2019-10-04T21:03:17Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.ImageTitleTest@1d057a39]" name="afterClass" is-config="true" duration-ms="844" started-at="2019-10-04T21:37:16Z" finished-at="2019-10-04T21:37:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.sayali.test.ImageTitleTest -->
       <class name="com.sayali.test.GoogleMapTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="launchBrowser" is-config="true" duration-ms="4521" started-at="2019-10-04T21:03:17Z" finished-at="2019-10-04T21:03:21Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="launchBrowser" is-config="true" duration-ms="4512" started-at="2019-10-04T21:37:17Z" finished-at="2019-10-04T21:37:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="CH05_verifyMapMenuOptionNotPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="CH05_verifyMapMenuOptionNotPresent" duration-ms="14090" started-at="2019-10-04T21:03:21Z" finished-at="2019-10-04T21:03:35Z">
+        <test-method status="PASS" signature="CH05_verifyMapMenuOptionNotPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="CH05_verifyMapMenuOptionNotPresent" duration-ms="17543" started-at="2019-10-04T21:37:21Z" finished-at="2019-10-04T21:37:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH05_verifyMapMenuOptionNotPresent -->
-        <test-method status="PASS" signature="CH06_verifyMapMenuOptionPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="CH06_verifyMapMenuOptionPresent" duration-ms="11026" started-at="2019-10-04T21:03:35Z" finished-at="2019-10-04T21:03:46Z">
+        <test-method status="PASS" signature="CH06_verifyMapMenuOptionPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="CH06_verifyMapMenuOptionPresent" duration-ms="10009" started-at="2019-10-04T21:37:39Z" finished-at="2019-10-04T21:37:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CH06_verifyMapMenuOptionPresent -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="afterClass" is-config="true" duration-ms="956" started-at="2019-10-04T21:03:46Z" finished-at="2019-10-04T21:03:47Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.GoogleMapTest@26be92ad]" name="afterClass" is-config="true" duration-ms="882" started-at="2019-10-04T21:37:49Z" finished-at="2019-10-04T21:37:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
