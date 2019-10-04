@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45470" started-at="2019-10-04T20:34:55Z" finished-at="2019-10-04T20:35:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45470" started-at="2019-10-04T20:34:55Z" finished-at="2019-10-04T20:35:40Z">
+      <class name="com.sayali.test.GoogleMapTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.sayali.test.GoogleMapTest@4b9e13df]" name="launchBrowser" is-config="true" duration-ms="10169" started-at="2019-10-04T20:34:55Z" finished-at="2019-10-04T20:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="CH05_verifyMapMenuOptionNotPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@4b9e13df]" name="CH05_verifyMapMenuOptionNotPresent" duration-ms="13358" started-at="2019-10-04T20:35:05Z" finished-at="2019-10-04T20:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CH05_verifyMapMenuOptionNotPresent -->
+        <test-method status="PASS" signature="CH06_verifyMapMenuOptionPresent()[pri:0, instance:com.sayali.test.GoogleMapTest@4b9e13df]" name="CH06_verifyMapMenuOptionPresent" duration-ms="8414" started-at="2019-10-04T20:35:19Z" finished-at="2019-10-04T20:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CH06_verifyMapMenuOptionPresent -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sayali.test.GoogleMapTest@4b9e13df]" name="afterClass" is-config="true" duration-ms="13474" started-at="2019-10-04T20:35:27Z" finished-at="2019-10-04T20:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.sayali.test.GoogleMapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
